@@ -19,7 +19,7 @@ export default function ProductImage({
         fill
         sizes="(min-width: 768px) 40vw, 100vw"
         quality={75}
-        className="object-cover transition-transform duration-700 group-hover:scale-105"
+        className="object-cover scale-120 transition-transform duration-700 group-hover:scale-125 group-active:scale-125"
         preload={preload}
       />
     </div>
